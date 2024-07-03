@@ -1,7 +1,6 @@
 from tkinter import *
 from tkinter import messagebox
 from tkinter import simpledialog
-import json
 
 FONT = ('Courier', 16, 'normal')
 THEME = '#FFFFCC'
