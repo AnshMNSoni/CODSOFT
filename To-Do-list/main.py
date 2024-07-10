@@ -15,13 +15,13 @@ class GUI:
         
         
         # Todo logo:
-        self.todo_img = PhotoImage(file='.//todo_logo.png')
+        self.todo_img = PhotoImage(file='./todo_logo.png')
         self.todo_logo = Label(image=self.todo_img, bg=THEME)
         self.todo_logo.place(x=400, y=100)
         
         
         # Add Button:
-        self.plus_img = PhotoImage(file='./To-Do-list/add.png')
+        self.plus_img = PhotoImage(file='./add.png')
         self.plus_button = Button(image=self.plus_img, bg=THEME, command=self.get_user_input)
         self.plus_button.place(x=400, y=600)
 
