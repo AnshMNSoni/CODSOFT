@@ -15,7 +15,7 @@ class GUI:
         
         
         # Todo logo:
-        self.todo_img = PhotoImage(file='./To-Do-list/todo_logo.png')
+        self.todo_img = PhotoImage(file='.//todo_logo.png')
         self.todo_logo = Label(image=self.todo_img, bg=THEME)
         self.todo_logo.place(x=400, y=100)
         
